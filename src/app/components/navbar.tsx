@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
 import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Navbar() {
   const { theme, setTheme } = useTheme();
